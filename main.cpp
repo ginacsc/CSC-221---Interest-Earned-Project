@@ -3,14 +3,18 @@
 
 #include <iostream>
 #include <cmath>
+#include <iomanip>
 using namespace std;
 
 int main() {
-    cout << "Enter principal amount:" << endl;
+
+    setprecision(2);
+
+    cout << "Enter principal amount as a numeric value:" << endl;
     double principal;
     cin >> principal;
 
-    cout << "Enter interest rate:" << endl;
+    cout << "Enter interest rate percentage as a numeric value:" << endl;
     double interestRate;
     cin >> interestRate;
     double rateDecimal = interestRate / 100.00;

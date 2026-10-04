@@ -23,5 +23,11 @@ int main() {
 
     double interestEarned = totalBalance - principal;
 
+    cout << "Interest rate: " << interestRate << endl;
+    cout << "Number of times interest earned: " << timesCompounded << endl;
+    cout << "Principal balance: $" << principal << endl;
+    cout << "Interest earned: $" << interestEarned << endl;
+    cout << "Total balance: $" << totalBalance << endl;
+
     return 0;
 }

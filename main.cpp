@@ -10,11 +10,11 @@ int main() {
 
     cout << setprecision(2) << fixed;
 
-    cout << "Enter principal amount as a numeric value:" << endl;
+    cout << "Enter principal amount:" << endl;
     double principal;
     cin >> principal;
 
-    cout << "Enter interest rate percentage as a numeric value:" << endl;
+    cout << "Enter annual interest rate percentage:" << endl;
     double interestRate;
     cin >> interestRate;
     double rateDecimal = interestRate / 100.00;
@@ -27,11 +27,11 @@ int main() {
 
     double interestEarned = totalBalance - principal;
 
-    cout << "Interest rate: " << interestRate << endl;
+    cout << "Interest rate: " << interestRate << "%" << endl;
     cout << "Number of times interest earned: " << timesCompounded << endl;
     cout << "Principal balance: $" << principal << endl;
     cout << "Interest earned: $" << interestEarned << endl;
-    cout << "Total balance: $" << totalBalance << endl;
+    cout << "Total balance in savings: $" << totalBalance << endl;
 
     return 0;
 }

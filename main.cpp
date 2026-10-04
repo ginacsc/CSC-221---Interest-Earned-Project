@@ -8,7 +8,7 @@ using namespace std;
 
 int main() {
 
-    setprecision(2);
+    cout << setprecision(2) << fixed;
 
     cout << "Enter principal amount as a numeric value:" << endl;
     double principal;

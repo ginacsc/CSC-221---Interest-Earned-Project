@@ -10,18 +10,20 @@ int main() {
 
     cout << setprecision(2) << fixed;
 
-    cout << "Enter principal amount:" << endl;
+    cout << "Enter principal amount: ";
     double principal;
     cin >> principal;
 
-    cout << "Enter annual interest rate percentage:" << endl;
+    cout << "Enter annual interest rate percentage: ";
     double interestRate;
     cin >> interestRate;
     double rateDecimal = interestRate / 100.00;
 
-    cout << "Enter number of times interest is compounded in one year:" << endl;
+    cout << "Enter number of times interest is compounded in one year: ";
     int timesCompounded;
     cin >> timesCompounded;
+
+    cout << endl;
 
     double totalBalance = principal * pow(1 + rateDecimal / timesCompounded, timesCompounded);
 

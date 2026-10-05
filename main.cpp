@@ -10,6 +10,10 @@ int main() {
 
     cout << setprecision(2) << fixed;
 
+    cout << "This program calculates the interest earned in one year for a savings account." << endl;
+
+    cout << endl;
+
     cout << "Enter principal amount: ";
     double principal;
     cin >> principal;
